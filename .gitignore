@@ -1,0 +1,29 @@
+# 1. Block the Executable (Upload this to "Releases" instead)
+PixelDNA_Pro.exe
+
+# 2. Block Build Artifacts
+build/
+dist/
+*.spec
+
+# 3. Block Python Cache & Envs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# 4. Block C++ Compiled Objects (Keep source .cpp only)
+*.o
+*.obj
+*.exe
+
+# 5. Block Test Data (Too big for repo)
+*.fastq
+*.png
+*.hdr
+*.restored.fastq
+
+# 6. IDE Settings
+.vscode/
+.idea/
